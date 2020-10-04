@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/1_diagdown.png-39b313850534d372a4f6311a5aebf2dc.stex"
+path="res://.import/1_diagup.png-099dbf5072888ac244b653c815a32be9.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://1_diagdown.png"
-dest_files=[ "res://.import/1_diagdown.png-39b313850534d372a4f6311a5aebf2dc.stex" ]
+source_file="res://sprites/1_diagup.png"
+dest_files=[ "res://.import/1_diagup.png-099dbf5072888ac244b653c815a32be9.stex" ]
 
 [params]
 

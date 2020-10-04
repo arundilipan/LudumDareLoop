@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/1_south.png-0b9660f40e9fe778985d09b5c411c942.stex"
+path="res://.import/1_diagdown.png-8bb7e2daa076f55b31e78a9c100f1cc4.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://1_south.png"
-dest_files=[ "res://.import/1_south.png-0b9660f40e9fe778985d09b5c411c942.stex" ]
+source_file="res://sprites/1_diagdown.png"
+dest_files=[ "res://.import/1_diagdown.png-8bb7e2daa076f55b31e78a9c100f1cc4.stex" ]
 
 [params]
 

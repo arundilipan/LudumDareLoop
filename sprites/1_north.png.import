@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/1_diagup.png-2540fa312dea61bd2003ea3bf7e12a77.stex"
+path="res://.import/1_north.png-8c5de02722a5a198ae8b5fb5ef5c12f8.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://1_diagup.png"
-dest_files=[ "res://.import/1_diagup.png-2540fa312dea61bd2003ea3bf7e12a77.stex" ]
+source_file="res://sprites/1_north.png"
+dest_files=[ "res://.import/1_north.png-8c5de02722a5a198ae8b5fb5ef5c12f8.stex" ]
 
 [params]
 
