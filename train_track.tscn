@@ -1,0 +1,20 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://microwave.png" type="Texture" id=1]
+[ext_resource path="res://train_track_sprite.gd" type="Script" id=2]
+[ext_resource path="res://train_track.gd" type="Script" id=3]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 22.293, 15.9295 )
+
+[node name="train_track" type="StaticBody2D"]
+script = ExtResource( 3 )
+
+[node name="Sprite" type="Sprite" parent="."]
+scale = Vector2( 4, 4 )
+texture = ExtResource( 1 )
+script = ExtResource( 2 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+scale = Vector2( 1.5, 2 )
+shape = SubResource( 1 )

@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://loop_tile.tscn" type="PackedScene" id=1]
+[ext_resource path="res://non_loop_tile.gd" type="Script" id=2]
+
+[node name="Area2D" instance=ExtResource( 1 )]
+script = ExtResource( 2 )
+
+[node name="VisibilityEnabler2D" type="VisibilityEnabler2D" parent="." index="2"]
+position = Vector2( 0, -0.160011 )

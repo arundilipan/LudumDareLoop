@@ -1,0 +1,100 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=4
+
+_global_script_classes=[ {
+"base": "Resource",
+"class": "CtxFRef1",
+"language": "GDScript",
+"path": "res://goldenGadget/CtxFRef1.gd"
+}, {
+"base": "Resource",
+"class": "CtxFRef2",
+"language": "GDScript",
+"path": "res://goldenGadget/CtxFRef2.gd"
+}, {
+"base": "Resource",
+"class": "FlowF",
+"language": "GDScript",
+"path": "res://goldenGadget/FlowF.gd"
+}, {
+"base": "Resource",
+"class": "GGArray",
+"language": "GDScript",
+"path": "res://goldenGadget/GGArray.gd"
+}, {
+"base": "Resource",
+"class": "GGInternal",
+"language": "GDScript",
+"path": "res://goldenGadget/GGInternal.gd"
+}, {
+"base": "Node",
+"class": "GGTests",
+"language": "GDScript",
+"path": "res://goldenGadget/GGTests.gd"
+}, {
+"base": "Area2D",
+"class": "LoopTile",
+"language": "GDScript",
+"path": "res://loop_tile.gd"
+} ]
+_global_script_class_icons={
+"CtxFRef1": "",
+"CtxFRef2": "",
+"FlowF": "",
+"GGArray": "",
+"GGInternal": "",
+"GGTests": "",
+"LoopTile": ""
+}
+
+[application]
+
+config/name="LudumDareLoop"
+run/main_scene="res://main scene.tscn"
+config/icon="res://icon.png"
+
+[autoload]
+
+GG="*res://goldenGadget/GoldenGadget.gd"
+
+[input]
+
+left={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":65,"unicode":0,"echo":false,"script":null)
+ ]
+}
+right={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":68,"unicode":0,"echo":false,"script":null)
+ ]
+}
+up={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":87,"unicode":0,"echo":false,"script":null)
+ ]
+}
+down={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":83,"unicode":0,"echo":false,"script":null)
+ ]
+}
+click={
+"deadzone": 0.5,
+"events": [ Object(InputEventMouseButton,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"button_mask":0,"position":Vector2( 0, 0 ),"global_position":Vector2( 0, 0 ),"factor":1.0,"button_index":1,"pressed":false,"doubleclick":false,"script":null)
+ ]
+}
+
+[rendering]
+
+quality/driver/driver_name="GLES2"
+vram_compression/import_etc=true
+vram_compression/import_etc2=false
+environment/default_environment="res://default_env.tres"
