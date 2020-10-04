@@ -10,10 +10,10 @@
 
 [sub_resource type="SpriteFrames" id=1]
 animations = [ {
-"frames": [ ExtResource( 7 ) ],
-"loop": true,
-"name": "corner_top_left",
-"speed": 5.0
+"frames": [ ExtResource( 1 ) ],
+"loop": false,
+"name": "vertical",
+"speed": 1.0
 }, {
 "frames": [ ExtResource( 5 ) ],
 "loop": true,
@@ -30,28 +30,27 @@ animations = [ {
 "name": "horizontal",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 1 ) ],
-"loop": false,
-"name": "vertical",
-"speed": 1.0
-}, {
 "frames": [ ExtResource( 6 ) ],
 "loop": true,
 "name": "corner_top_right",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 7 ) ],
+"loop": true,
+"name": "corner_top_left",
 "speed": 5.0
 } ]
 
 [sub_resource type="RectangleShape2D" id=2]
 extents = Vector2( 8, 8 )
 
-[node name="loop_1" type="Area2D"]
-position = Vector2( 16, 16 )
+[node name="corner_bottom_right" type="Area2D"]
 script = ExtResource( 4 )
-orientation = 4
+orientation = 3
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="."]
 frames = SubResource( 1 )
-animation = "corner_top_left"
+animation = "corner_bottom_right"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource( 2 )

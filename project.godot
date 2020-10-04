@@ -57,7 +57,7 @@ _global_script_class_icons={
 [application]
 
 config/name="LudumDareLoop"
-run/main_scene="res://main scene.tscn"
+run/main_scene="res://scenes/main scene.tscn"
 config/icon="res://icon.png"
 
 [autoload]
